@@ -1,0 +1,22 @@
+.image {
+  width: 220px;
+  border-radius: 15px;
+}
+.main {
+  width: 225px;
+  cursor: pointer;
+}
+.videoName {
+  position: relative;
+  top: -8px;
+}
+.channelName {
+  font-size: small;
+  color: rgb(151, 149, 149);
+  position: relative;
+  top: -18px;
+}
+.channelName:hover,
+.videoName:hover {
+  text-decoration: underline;
+}

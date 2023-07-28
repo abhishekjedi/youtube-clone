@@ -1,0 +1,57 @@
+.head {
+  width: 100%;
+  margin-left: max(9rem, 17vw);
+  margin-top: max(9vh, 1.3rem);
+  display: flex;
+  flex-direction: column;
+}
+.banner {
+  margin: 20px;
+  height: min(10rem, 20vh);
+  width: 100%;
+  background: linear-gradient(to left, black, rgb(41, 40, 40));
+}
+.channelInfo {
+  position: relative;
+
+  left: 30%;
+  top: -5rem;
+  margin-right: 30%;
+  margin-bottom: -5rem;
+}
+.thumbNail {
+  height: min(200px, 20vh);
+  width: min(200px, 20vh);
+  border-radius: 100%;
+}
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-left: max(9rem, 17vw);
+  margin-top: max(9vh, 1.3rem);
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+}
+.name {
+  padding-left: 3%;
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+  margin-bottom: -10px;
+}
+.desc {
+  color: grey;
+  position: relative;
+  top: -10px;
+  margin-bottom: -10px;
+  left: -50px;
+}
+.subs {
+  padding-left: 3%;
+  color: grey;
+  position: relative;
+  top: -10px;
+  margin-bottom: -10px;
+}

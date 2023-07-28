@@ -1,0 +1,46 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  margin-bottom: 20px;
+}
+.image {
+  height: 80px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.title {
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+}
+.channel {
+  font-size: 15px;
+  color: grey;
+  position: relative;
+  top: -40px;
+  cursor: pointer;
+}
+
+.channel:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 15px;
+  }
+  .channel {
+    font-size: 10px;
+  }
+}

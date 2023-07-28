@@ -1,0 +1,44 @@
+.main {
+  margin-left: 15vw;
+}
+.input {
+  width: 35rem;
+  height: 2rem;
+  border-radius: 20px;
+  padding: 3px;
+  padding-left: 20px;
+  background: linear-gradient(
+    to right,
+    rgba(21, 21, 21, 0.977),
+    rgba(31, 31, 31, 0.66)
+  );
+  color: white;
+  font-size: large;
+  border: none;
+}
+.input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    margin-left: 8vw;
+  }
+  .input {
+    width: 20rem;
+    height: 2rem;
+    font-size: medium;
+    padding-left: 6px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main {
+    margin-left: 10vw;
+  }
+  .input {
+    width: 10rem;
+    height: 1rem;
+    font-size: small;
+  }
+}

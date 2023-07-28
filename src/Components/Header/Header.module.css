@@ -1,0 +1,32 @@
+.image {
+  height: 80px;
+  cursor: pointer;
+}
+div h1 {
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  width: 100%;
+  height: max(7vh, 1rem);
+
+  /* border-bottom: 2px solid wheat; */
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    padding-top: 10px;
+  }
+  .image {
+    height: 40px;
+  }
+  h1 {
+    font-size: medium;
+  }
+}
